@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include _head %>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>{page-header[Page header] <%- page.header %>}</h1>
+        <% include _language %>
+      </div>
+    </header>
+    <% include _navigation %>
+    <main>
+      <%- page.body %>
+    </main>
+  </body>
+</html>

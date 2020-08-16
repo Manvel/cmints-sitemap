@@ -1,0 +1,26 @@
+{
+  "title": {
+    "description": "Page title",
+    "message": "Главная странница"
+  },
+  "description": {
+    "description": "Page meta description",
+    "message": "Запустите ваш сайт онлайн, легко и быстро"
+  },
+  "page-header": {
+    "description": "Page header text",
+    "message": "<fix1> Стартер"
+  },
+  "homepage": {
+    "description": "Page heading",
+    "message": "Главная"
+  },
+  "homepage-p": {
+    "description": "Paragraph in \"Homepage\" section",
+    "message": "Это домашняя странница которая использует <fix1>."
+  },
+  "homepage-p-link": {
+    "description": "Link to the second page in \"Homepage\" section",
+    "message": "Перейти на вторую странница."
+  }
+}

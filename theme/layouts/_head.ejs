@@ -1,0 +1,25 @@
+<% const title = `${site.title} | {title[Page title] ${page.title}}`%>
+<% const description = page.description ? `{description[Page description] ${page.description}}` : "" %>
+<% const promo = "https://cmints.io/images/promo-alternate.png" %>
+
+<title><%= title %></title>
+
+<!-- Meta -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="<%= title %>">
+<meta name="twitter:title" content="<%= title %>">
+<meta content="<%- description %>" name="description">
+<meta content="<%- description %>" property="og:description">
+<meta name="twitter:description" content="<%- description %>">
+<meta charset="UTF-8">
+<meta property="og:image" content="<%= promo %>">
+<meta name="twitter:image" content="<%= promo %>">
+<meta property="og:type" content="website">
+
+<!-- Resources -->
+<script src="<%= site.root %>/js/main.js" defer></script>
+<link href="<%= site.root %>/css/main.css" rel="stylesheet">
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="<%= site.root %>/images/favicon.png">

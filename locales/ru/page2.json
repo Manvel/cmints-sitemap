@@ -1,0 +1,26 @@
+{
+  "title": {
+    "description": "Page title",
+    "message": "Вторая странница"
+  },
+  "description": {
+    "description": "Page meta description",
+    "message": "Запустите ваш сайт онлайн, легко и быстро"
+  },
+  "page-header": {
+    "description": "Page header text",
+    "message": "<fix1> Стартер"
+  },
+  "second-page": {
+    "description": "Page heading",
+    "message": "Вторая странница"
+  },
+  "second-page-p": {
+    "description": "Paragraph in \"Second page\" section",
+    "message": "Это вторая странница <fix1>-а, она использует <fix2>."
+  },
+  "second-page-link": {
+    "description": "Link to the homepage",
+    "message": "На <a1>главную</a1>"
+  }
+}
